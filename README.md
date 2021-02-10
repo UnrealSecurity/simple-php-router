@@ -10,7 +10,7 @@ It's simple...
       include 'views/index.php';
     });
 
-    Router::route('GET', '/^\/echo/(.*)$/', function($array){
+    Router::route('GET', '/^\/echo\/(.*)$/', function($array){
       echo htmlspecialchars($array[0]);
     });
 
