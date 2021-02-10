@@ -1,6 +1,6 @@
 # Simple PHP router
 It's simple...
-```
+```php
 <?php
 
   require_once 'Router.php';
