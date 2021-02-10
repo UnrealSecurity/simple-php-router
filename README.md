@@ -19,6 +19,7 @@ It's simple...
     });
 
     Router::accept();
+
   } catch (NoRouteException $e) {
     include 'error/404.php';
   }
