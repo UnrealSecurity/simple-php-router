@@ -21,9 +21,9 @@
                         return;
                     }
                 }
-
-                throw new NoRouteException('Route not found!');
             }
+
+            throw new NoRouteException('Route not found!');
         }
     }
 
